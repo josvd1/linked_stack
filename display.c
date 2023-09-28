@@ -16,7 +16,7 @@ void display()
 	{
 		printf("Printing stack elements\n");
 
-		while (ptr != NULL
+		while (ptr != NULL)
 		{
 			printf("%d\n", ptr->val);
 			ptr = ptr -> next;
